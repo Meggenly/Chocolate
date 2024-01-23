@@ -1,0 +1,203 @@
+/* 
+==================
+Common styles
+==================
+ */
+
+body{
+font-family: Montserrat, 
+sans-serif;
+
+}
+
+/* Reset */
+ul,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.section {
+}
+.list {
+    list-style:none;
+}
+
+
+/*
+==================
+Header styles
+==================
+*/
+
+.header {
+}
+.header-nav {
+}
+.header-logo {
+font-weight: 700;
+font-size: 18px;
+line-height: 1,11;
+letter-spacing:-0.03em;
+color:#111111;
+}
+.header-logo-italic {
+font-style: italic;
+
+}
+.header-img {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+color: #111;
+font-size: 14px;
+font-weight: 500;
+line-height: 1,14;
+letter-spacing: -0.02;
+}
+.header-networks {
+}
+.header-networks-item {
+}
+.header-networks-link {
+}
+
+/*
+=====================
+Hero styles
+=====================
+*/
+
+.hero {
+    background-color: #1e1823;
+}
+.hero-title {
+color: #FFF;
+font-size: 28px;
+font-weight: 500;
+line-height: 1,21;
+letter-spacing: -0,03em;  
+/* 0.84px; */
+}
+.hero-btn {
+color: #FFF;
+font-size: 14px;
+font-weight: 600;
+line-height: 1,21em;
+/* normal= 17px= 17:14=1.21 em; */
+background-color: #FD9222;
+}
+.hero-link {
+
+}
+
+/* 
+===============
+Benefits styles
+===============
+ */
+
+.section {
+}
+.benefits {
+}
+.benefits-title {
+}
+.benefits-list {
+}
+.list {
+}
+.benefits-item {
+}
+.benefits-img {
+}
+.subtitle {
+}
+.subtitle-accent {
+}
+.Benefits-desc {
+}
+
+/* 
+=================
+Ingridients 
+=================
+*/
+.section {
+}
+.ingredients {
+}
+.title {
+}
+.title-accent {
+}
+.ingredients-desc {
+}
+.ingredients-list {
+}
+.list {
+}
+.ingredients-item {
+}
+.orange {
+}
+.ingredients-img {
+}
+.ingredients-subtitle {
+}
+.light {
+}
+.ingridients-img {
+}
+.ingridients-subtitle {
+}
+.dark {
+}
+
+
+
+/* 
+|=============
+|How it's made
+|==============
+ */
+ .section {
+}
+.how {
+}
+.made {
+}
+.list {
+}
+
+/* 
+================
+Reviews section 
+================
+ */
+
+ .section {
+}
+.reviews {
+}
+.list {
+}
+
+/* 
+==============
+| Footer section
+==============
+ */
+ .list {
+}
+
