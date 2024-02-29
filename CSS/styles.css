@@ -1,13 +1,23 @@
-/* 
-==================
+:root {
+    --main-dark-cl:#111111;
+    --main-light-cl : #ffffff;
+    --accent-cl: #fd9222;
+    --grey-cl: rgba (255, 255, 255, 0.7);
+    --main-dark-bg: #1e1823;
+
+}
+
+
+/* ==================
 Common styles
-==================
- */
+================== */
 
 body{
-font-family: Montserrat, 
-sans-serif;
-
+font-family: Montserrat, sans-serif;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+color: var(--main-dark-cl); 
 }
 
 /* Reset */
@@ -19,15 +29,40 @@ a {
     text-decoration: none;
     color: currentColor;
 }
-button {
+.button {
     cursor: pointer;
     font-family: inherit;
 }
+.list {
+    list-style:none;
+}
+
+/* Base styles */
 
 .section {
 }
-.list {
-    list-style:none;
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+
+}
+.title-accent {
+    color: var(--accent-cl);
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: normal;
+
+}
+.subtitle-accent {
+    color: var(--main-light-cl);
 }
 
 
@@ -46,7 +81,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: 1,11;
 letter-spacing:-0.03em;
-color:#111111;
+color:var(--main-dark-cl);
 }
 .header-logo-italic {
 font-style: italic;
@@ -59,7 +94,7 @@ font-style: italic;
 .header-item {
 }
 .header-link {
-color: #111;
+color: var(--main-dark-cl) ;
 font-size: 14px;
 font-weight: 500;
 line-height: 1,14;
@@ -79,10 +114,10 @@ Hero styles
 */
 
 .hero {
-    background-color: #1e1823;
+    background-color: var(--main-dark-bg);
 }
 .hero-title {
-color: #FFF;
+color: var(--main-light-cl);
 font-size: 28px;
 font-weight: 500;
 line-height: 1,21;
@@ -90,7 +125,7 @@ letter-spacing: -0,03em;
 /* 0.84px; */
 }
 .hero-btn {
-color: #FFF;
+color: var(--main-light-cl);
 font-size: 14px;
 font-weight: 600;
 line-height: 1,21em;
@@ -109,7 +144,8 @@ Benefits styles
 
 .section {
 }
-.benefits {
+.benefits { 
+background-color: var(--main-dark-bg);
 }
 .benefits-title {
 }
@@ -126,6 +162,7 @@ Benefits styles
 .subtitle-accent {
 }
 .Benefits-desc {
+   color: var(--grey-cl) ; 
 }
 
 /* 
@@ -134,6 +171,7 @@ Ingridients
 =================
 */
 .section {
+   
 }
 .ingredients {
 }
@@ -164,21 +202,29 @@ Ingridients
 .dark {
 }
 
-
-
 /* 
 |=============
 |How it's made
 |==============
  */
- .section {
-}
-.how {
-}
+ 
 .made {
+}
+.title {
+}
+.title-accent {
+}
+.made-img {
+}
+.made-subtitle {
+}
+.made-list {
 }
 .list {
 }
+.made-item {
+}
+ 
 
 /* 
 ================
@@ -190,14 +236,52 @@ Reviews section
 }
 .reviews {
 }
+.title {
+}
+.title-accent {
+}
+.reviews-list {
+}
 .list {
 }
+.reviews-item {
+}
+.reviews-img {
+}
+.reviews-subtitle {
+}
+.subtitle {
+}
+.reviews-text {
+}
+
 
 /* 
 ==============
 | Footer section
 ==============
  */
- .list {
+ .footer {
 }
-
+.footer-slogan {
+}
+.footer-slogan-accent {
+}
+.footer-address {
+}
+.footer-address-heading {
+}
+.footer-address-list {
+}
+.list {
+}
+.footer-address-item {
+}
+.footer-address-link {
+}
+.footer-nav {
+}
+.footer-nav-item {
+}
+.footer-nav-link {
+}
